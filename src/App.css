@@ -1,0 +1,62 @@
+.App{
+    background-position-y:0px;
+    background-size: cover;
+font-family:'EB Garamond', serif;
+    height:100vh;
+    /* background-image: url(https://images.unsplash.com/photo-1617713964959-d9a36bbc7b52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); */
+    background-image: linear-gradient(rgba(243, 239, 239, 0.568), rgba(232, 236, 238, 0.575)),url("/public/images/back.jpg") ;
+  
+}
+
+.container{
+    /* margin: 0 auto; */
+    height: inherit;
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.title{
+    font-size:5em ;
+    font-weight: 900;
+    color: rgba(158, 0, 0, 0.65);
+    text-shadow: 3px 5px 5px  rgb(255, 157, 0);
+}
+
+.form-select{
+max-width: fit-content;  
+font-size: large;  
+background-color: rgba(245, 222, 179, 0.335);
+border:none;
+    }
+.form-select:hover{
+cursor:pointer ;
+    }
+.form-control{
+width: fit-content;     
+text-align: center;   
+font-size: large;  
+background-color: rgba(245, 222, 179, 0.335);
+border:none;
+    }
+    option{
+        background-color: rgba(255, 0, 0, 0.568);
+    }
+
+    .swich:hover{
+        cursor: pointer;
+    }
+
+.output{
+    margin-top: 200px;
+
+}
+
+
+@media(max-width:768px) {
+    /* .container{
+        margin: 0 auto;
+        border: 2px black solid;
+        height: inherit;
+    } */
+}
